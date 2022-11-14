@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Coding Quiz Challenge</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 id="title">Coding Quiz Challenge</h1>
+    </header>
+    <section>
+        <!-- <a href="#">Placeholder for Highscores</a> -->
+    </section>
+    <section id="container">
+        <div id="timer"></div>
+        <div id="questions">
+            <div class="introduction" id="intro">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Try to answer the following code related questions within the time limit. For every correct answer, you will receive 5 points! However, for every incorrect answer you will receive a 5 second time penalty!</p>
+                <button id="start">Start Quiz</button>
+            </div>
+            <div id="ques">
+                <h3 id="questitle"></h3>
+                <ul id="choices"></ul>
+                <ul id="answers"></ul>
+                <div id="valid-answer"></div>
+            </div>
+          
+        </div>
+        <div class="hide" id="user-initials"> Enter Initials  <input id="input" type="text">
+            <button id="submit">Submit</button>
+        </div>
+        <div class="hide" id="high-score">
+            <ul id="user-high-score">
+                
+            </ul>
+            <button id="go-back">Go Back</button>
+            <button id="clear">Clear</button>
+        </div>
+    </section>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
